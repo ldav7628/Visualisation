@@ -1,0 +1,168 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie8.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* top convas title */
+/* line 11, ../sass/ie8.scss */
+#slide-menu {
+  display: none;
+}
+/* line 13, ../sass/ie8.scss */
+#slide-menu.open-menu {
+  display: block;
+  z-index: 999999;
+}
+
+/* line 21, ../sass/ie8.scss */
+.other-style #wrapper-header.fixed, .front #wrapper-header.fixed {
+  background: #fff;
+}
+
+/* line 28, ../sass/ie8.scss */
+#wrapper-header.fixed, #wrapper-header.over-slider {
+  background: #fff;
+}
+
+/* line 33, ../sass/ie8.scss */
+#r-slider .royalSlider, #info-topslider.first-page {
+  height: 850px !important;
+}
+
+/* line 38, ../sass/ie8.scss */
+.slider-overlay .content-bg, .slider-overlay .slider-content .content-box > .bg {
+  display: none !important;
+}
+/* line 42, ../sass/ie8.scss */
+.slider-overlay .content-box .title-box {
+  height: 100% !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+/* line 50, ../sass/ie8.scss */
+.slider-overlay .slider-content .content-box h1 {
+  width: 100% !important;
+}
+/* line 53, ../sass/ie8.scss */
+.slider-overlay .slider-content .content-box .social-box {
+  margin-top: 7%;
+}
+
+/**/
+/* line 62, ../sass/ie8.scss */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* background */
+/* line 69, ../sass/ie8.scss */
+.bg-box {
+  background-repeat: repeat;
+}
+
+/* Pricing */
+/* line 75, ../sass/ie8.scss */
+.cont-pricing {
+  background: #fff;
+}
+
+/* works */
+/* line 82, ../sass/ie8.scss */
+.rslides_nav.prev {
+  background-image: url(../images/prev3.png) !important;
+}
+/* line 85, ../sass/ie8.scss */
+.rslides_nav.next {
+  background-image: url(../images/next3.png) !important;
+}
+
+/* Contacts */
+/* line 93, ../sass/ie8.scss */
+#contacts #cont-info {
+  background: #fff;
+}
+
+/* elements */
+/* line 103, ../sass/ie8.scss */
+#info-topslider h1 span.title {
+  color: #fff;
+}
+
+/* soc icin */
+/* line 114, ../sass/ie8.scss */
+.white .soc-icon .fb, .white .soc-icon .tw, .white .soc-icon .g-plus, .white .soc-icon .pinterest, .white .soc-icon .inst {
+  color: #fff !important;
+}
+
+/* tabs */
+/* line 124, ../sass/ie8.scss */
+.tab-content > .tab-pane p {
+  display: none;
+}
+/* line 127, ../sass/ie8.scss */
+.tab-content > .tab-pane.active p {
+  display: block;
+}
+
+/* line 134, ../sass/ie8.scss */
+.invert-elements .tab-pane.active, .invert-elements .panel-body {
+  background: #fff;
+}
+/* line 138, ../sass/ie8.scss */
+.invert-elements .white-tab .tab-pane.active, .invert-elements .white-tab .panel-body {
+  background: none !important;
+}
+
+/* line 145, ../sass/ie8.scss */
+.tab-content > .active {
+  background: #f4f4f4;
+}
+
+/* line 153, ../sass/ie8.scss */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+  background: #f4f4f4;
+}
+/* line 157, ../sass/ie8.scss */
+.nav-tabs > li > a:hover {
+  background: #f4f4f4;
+}
+
+/* progress bar */
+/* line 166, ../sass/ie8.scss */
+.invert-elements .progress-bar {
+  background: #e0e6c0;
+}
+/* line 169, ../sass/ie8.scss */
+.invert-elements .progress {
+  background: #a0b536;
+}
+
+/* menu collapsed */
+/* line 179, ../sass/ie8.scss */
+#navigation-menu ul li.collapsed {
+  background-image: url(../images/menu_collapsed.png);
+  background-position: 25px 14px;
+}
+/* line 180, ../sass/ie8.scss */
+#navigation-menu ul li.collapsed.start-collapsed {
+  background-image: url(../images/menu_collapsed.png);
+  background-position: 25px -36px;
+}
+
+/* line 191, ../sass/ie8.scss */
+.wrapper-slide-menu-content {
+  width: 300px;
+  overflow-x: none;
+}
+
+/* line 196, ../sass/ie8.scss */
+#slide-menu {
+  padding-bottom: 150px;
+}
+
+/* responsive-design img */
+/* line 203, ../sass/ie8.scss */
+.img-responsive-design img {
+  width: auto;
+}
